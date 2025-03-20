@@ -1,13 +1,230 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="./output.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AIChat - Seu Assistente Virtual para WhatsApp</title>
+    <link rel="stylesheet" href="/Wizzy/src/css/style.css">
+    <link href="output.css" rel="stylesheet">
 </head>
 <body>
-  <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
-</body>
-</html>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <div class="logo-icon">🤖</div>
+                <div>AIChat</div>
+            </div>
+            <div class="nav-links">
+                <a href="#recursos">Recursos</a>
+                <a href="#como-funciona">Como Funciona</a>
+                <a href="#precos">Preços</a>
+                <a href="#depoimentos">Depoimentos</a>
+            </div>
+            <a href="#contato" class="btn">Começar Agora</a>
+        </nav>
+    </header>
+    
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Revolucione seu <span>Atendimento</span> no WhatsApp</h1>
+            <p class="hero-subtitle">Automatize suas conversas, aumente suas vendas e mantenha seus clientes satisfeitos com nosso chatbot de IA avançado, projetado exclusivamente para empresas.</p>
+            <div>
+                <a href="#contato" class="btn">Experimente Grátis</a>
+                <a href="#demo" class="btn btn-outline" style="margin-left: 1rem;">Ver Demo</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="/api/placeholder/400/320" alt="AIChat em ação no WhatsApp" />
+        </div>
+    </section>
+    
+    <section class="features" id="recursos">
+        <h2 class="section-title">Recursos Poderosos</h2>
+        <div class="features-container">
+            <div class="feature-card">
+                <div class="feature-icon">🧠</div>
+                <h3 class="feature-title">IA Avançada</h3>
+                <p>Nosso chatbot utiliza modelos de linguagem de última geração para entender e responder naturalmente às mensagens dos seus clientes.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">⚡</div>
+                <h3 class="feature-title">Respostas Instantâneas</h3>
+                <p>Atenda seus clientes 24/7 com respostas imediatas para as perguntas mais frequentes, sem necessidade de intervenção humana.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">📊</div>
+                <h3 class="feature-title">Análise de Dados</h3>
+                <p>Obtenha insights valiosos sobre as interações dos clientes, perguntas frequentes e taxas de conversão para otimizar seu negócio.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🔄</div>
+                <h3 class="feature-title">Integração Simples</h3>
+                <p>Configure em minutos com nossa integração fácil e direta com o WhatsApp Business API, sem conhecimento técnico necessário.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">👤</div>
+                <h3 class="feature-title">Personalização Completa</h3>
+                <p>Adapte o tom, as respostas e o fluxo de conversa para refletir perfeitamente a identidade da sua marca.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🤝</div>
+                <h3 class="feature-title">Transição Humana</h3>
+                <p>Transferência suave para atendentes humanos quando necessário, mantendo todo o histórico da conversa.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section class="chat-demo" id="como-funciona">
+        <div class="demo-image">
+            <div class="chat-container">
+                <div class="chat-header">
+                    <div class="chat-header-avatar">🤖</div>
+                    <div>
+                        <h3>AIChat Assistente</h3>
+                        <small>Online</small>
+                    </div>
+                </div>
+                <div class="chat-messages">
+                    <div class="chat-bubble chat-user">
+                        Olá, gostaria de saber o horário de funcionamento da loja.
+                    </div>
+                    <div class="chat-bubble chat-bot">
+                        Olá! Nossa loja funciona de segunda a sexta das 9h às 18h, e aos sábados das 9h às 13h. Posso ajudar com mais alguma informação?
+                    </div>
+                    <div class="chat-bubble chat-user">
+                        Vocês entregam na região do Morumbi?
+                    </div>
+                    <div class="chat-bubble chat-bot">
+                        Sim, entregamos no Morumbi! Para essa região, o prazo de entrega é de 1-2 dias úteis e a taxa é de R$12,90. Pedidos acima de R$150 têm frete grátis. Gostaria de fazer um pedido agora?
+                    </div>
+                    <div class="chat-bubble chat-user">
+                        Perfeito! Vou fazer um pedido pelo site então.
+                    </div>
+                    <div class="chat-bubble chat-bot">
+                        Ótimo! Estou enviando um link direto para nossa loja online. Aproveite o cupom WELCOME20 para 20% de desconto na sua primeira compra. Se precisar de ajuda durante o processo, é só me avisar!
+                    </div>
+                </div>
+                <div class="chat-input">
+                    <input type="text" placeholder="Digite sua mensagem...">
+                    <button>➤</button>
+                </div>
+            </div>
+        </div>
+        <div class="demo-content">
+            <h2 class="section-title" style="text-align: left;">Como Funciona</h2>
+            <p>O AIChat transforma completamente seu atendimento no WhatsApp, automatizando respostas com a precisão e naturalidade de um atendente humano.</p>
+            <div class="demo-steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div>
+                        <h3>Configuração Rápida</h3>
+                        <p>Conecte sua conta do WhatsApp Business e personalize o chatbot de acordo com o perfil da sua empresa em poucos minutos.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div>
+                        <h3>Treinamento Inteligente</h3>
+                        <p>Alimente o sistema com FAQs, informações de produtos e procedimentos da empresa para respostas precisas.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div>
+                        <h3>Atendimento Automatizado</h3>
+                        <p>Deixe o AIChat responder as perguntas dos clientes, qualificar leads e encaminhar casos complexos para sua equipe.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <div>
+                        <h3>Análise e Otimização</h3>
+                        <p>Acompanhe métricas de desempenho e otimize continuamente as respostas com base nos dados reais.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="pricing" id="precos">
+        <h2 class="section-title">Planos e Preços</h2>
+        <div class="pricing-container">
+            <div class="pricing-card">
+                <div class="pricing-header">
+                    <h3 class="pricing-title">Starter</h3>
+                    <div class="pricing-price">R$197</div>
+                    <div class="pricing-duration">/mês</div>
+                </div>
+                <ul class="pricing-features">
+                    <li>Até 500 conversas por mês</li>
+                    <li>1 número de WhatsApp</li>
+                    <li>Respostas automatizadas</li>
+                    <li>Relatórios básicos</li>
+                    <li>Suporte por e-mail</li>
+                </ul>
+                <a href="#contato" class="btn btn-outline">Começar Agora</a>
+            </div>
+            <div class="pricing-card popular">
+                <div class="popular-tag">Mais Popular</div>
+                <div class="pricing-header">
+                    <h3 class="pricing-title">Business</h3>
+                    <div class="pricing-price">R$397</div>
+                    <div class="pricing-duration">/mês</div>
+                </div>
+                <ul class="pricing-features">
+                    <li>Até 2.000 conversas por mês</li>
+                    <li>3 números de WhatsApp</li>
+                    <li>IA avançada com personalização</li>
+                    <li>Integração com CRM</li>
+                    <li>Relatórios avançados</li>
+                    <li>Suporte prioritário</li>
+                </ul>
+                <a href="#contato" class="btn">Começar Agora</a>
+            </div>
+            <div class="pricing-card">
+                <div class="pricing-header">
+                    <h3 class="pricing-title">Enterprise</h3>
+                    <div class="pricing-price">R$797</div>
+                    <div class="pricing-duration">/mês</div>
+                </div>
+                <ul class="pricing-features">
+                    <li>Conversas ilimitadas</li>
+                    <li>10 números de WhatsApp</li>
+                    <li>IA personalizada para seu negócio</li>
+                    <li>API completa</li>
+                    <li>Integração com qualquer sistema</li>
+                    <li>Suporte 24/7 dedicado</li>
+                </ul>
+                <a href="#contato" class="btn btn-outline">Começar Agora</a>
+            </div>
+        </div>
+    </section>
+    
+    <section class="testimonials" id="depoimentos">
+        <h2 class="section-title">O Que Nossos Clientes Dizem</h2>
+        <div class="testimonials-container">
+            <div class="testimonial-card">
+                <div class="quote-icon">❝</div>
+                <p class="testimonial-text">O AIChat revolucionou nosso atendimento ao cliente. Conseguimos reduzir em 70% o tempo de resposta e aumentar nossas vendas em 35% já no primeiro mês de uso.</p>
+                <div class="testimonial-author">
+                    <div class="author-avatar">MP</div>
+                    <div class="author-info">
+                        <h4>Marcelo Pereira</h4>
+                        <p class="author-company">Tech Store</p>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <div class="quote-icon">❝</div>
+                <p class="testimonial-text">Impressionante como o chatbot entende as perguntas dos clientes. A taxa de transferência para atendentes humanos é mínima, o que nos permitiu realocar nossa equipe para tarefas mais estratégicas.</p>
+                <div class="testimonial-author">
+                    <div class="author-avatar">CS</div>
+                    <div class="author-info">
+                        <h4>Carolina Silva</h4>
+                        <p class="author-company">Moda Express</p>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <div class="quote-icon">❝</div>
+                <p class="testimonial-text">A facilidade de configuração me
